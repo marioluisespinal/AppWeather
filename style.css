@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    
+    background-image: url(picture/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 70%;
+}
+
+.container {
+    position: relative;
+    margin-top: 40px;
+    margin-left: 40px;
+    max-width: 300px;
+    min-width: 300px;
+}
+
+header .title {
+	margin-top: 40px;
+    margin-bottom: 20px;
+	text-align: center;
+	text-shadow: 0 0 50px black;
+}
+
+header .weather-icon {
+	width: 60px;
+	margin-bottom: -20px;
+	margin-right: 20px;
+}
+
+input {
+    min-width: 350px;
+    padding: 10px;
+    padding-right: 35px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0 8px 32px 0 rgba(31, 31, 31, 0.37);
+}
+
+main .info-container {
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 8px 32px 0 rgba(31, 31, 31, 0.37);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border-radius: 20px;
+	max-width: 300px;
+	min-height: 380px;
+	position: relative;
+	margin: 40px;
+	margin-top: 30px;
+	padding: 20px;
+	text-align: center;
+}
+
+.city-name {
+	font-size: 23px;
+	margin: 20px 0;
+}
+.weather-deg {
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.weather-condition {
+	margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: medium;
+}
+
+#icono-animado {
+    position: relative;
+    
+}
